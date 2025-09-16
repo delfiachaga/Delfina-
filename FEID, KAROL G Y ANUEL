@@ -5,86 +5,83 @@
     <title>Feid, Anuel y Karol G</title>
     <style>
         body {
-            background-color: #ccffcc;
+            background-color: #ccffcc; /* verde clarito */
             font-family: Arial, sans-serif;
             font-size: 12px;
-            color: black;
+            color: #000;
             margin: 0;
             padding: 0;
         }
 
-        .contenedor {
-            max-width: 900px;
-            margin: auto;
+        header {
+            background-color: #004d00;
             padding: 20px;
+            text-align: center;
+            color: white;
         }
 
         h1, h2 {
             font-family: 'Times New Roman', Times, serif;
-            color: #004d00;
+            color: #003300;
         }
 
-        h1 {
-            font-size: 32px;
-            margin-bottom: 20px;
+        .post {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
-        h2 {
-            font-size: 24px;
-            margin-top: 20px;
+        .post img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 10px 0;
         }
 
-        p {
-            line-height: 1.6;
-        }
-
-        .imagenes {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-top: 10px;
-        }
-
-        .imagenes img {
-            width: 48%;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-        }
-
-        .boton {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 10px 20px;
+        a.button-link {
+            display: block;
+            width: fit-content;
+            margin: 30px auto;
+            padding: 12px 24px;
             background-color: #006600;
             color: white;
             text-decoration: none;
             font-weight: bold;
             border-radius: 6px;
-            font-family: Arial, sans-serif;
-            transition: background-color 0.3s ease;
+            text-align: center;
+            transition: background 0.3s ease;
         }
 
-        .boton:hover {
-            background-color: #004d00;
+        a.button-link:hover {
+            background-color: #009900;
         }
     </style>
 </head>
 <body>
-    <div class="contenedor">
-        <h1>Feid, Anuel y Karol G: La Polémica</h1>
 
-        <section>
-            <h2>La Nueva Relación de Karol G</h2>
-            <p>Karol G y Feid comenzaron a aparecer juntos públicamente en 2023, generando rumores de una relación. Aunque no lo confirmaron de inmediato, sus gestos y presentaciones lo dejaron claro para los fans.</p>
-            <div class="imagenes">
-                <img src="https://i.pinimg.com/originals/2b/3f/e3/2b3fe3154cc5b16eb934c2b4bb3ae9a0.jpg" alt="Feid y Karol G">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Karol_G_Bichota_Tour_Monterrey_2022.jpg" alt="Karol G">
-            </div>
-        </section>
+<header>
+    <h1>Feid, Anuel y Karol G</h1>
+    <p>La polémica del año en el género urbano</p>
+</header>
 
-        <section>
-            <h2>La Respuesta de Anuel</h2>
-            <p>Anuel, ex pareja de Karol G, publicó varias indirectas en sus redes sociales y canciones, criticando a Feid y la nueva relación. Muchos lo consideran celoso y resentido por la ruptura con Karol G.</p>
-            <div class="imagenes">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Anuel_AA_201
+<div class="post">
+    <h2>🔥 El triángulo amoroso</h2>
+    <p>Todo comenzó cuando Karol G y Anuel terminaron. Poco después, comenzaron los rumores de una relación entre Karol y Feid. Aunque al principio lo negaron, las apariciones públicas confirmaron la relación.</p>
+    <img src="https://i.pinimg.com/564x/8b/5a/f6/8b5af62475d99b42808331c44cbf75cb.jpg" alt="Feid y Karol G">
+    <img src="https://i.pinimg.com/564x/cf/fc/35/cffc353f055c3b7d8cc21c82baf0cc91.jpg" alt="Anuel y Karol G en tiempos pasados">
+</div>
 
+<div class="post">
+    <h2>💥 Las indirectas y el beef</h2>
+    <p>Anuel empezó a lanzar indirectas en redes y canciones hacia Feid, incluso usó atuendos similares al estilo del Ferxxo. Feid, aunque más reservado, respondió con barras sutiles en sus temas. La tensión sigue siendo tema de debate entre fans.</p>
+    <img src="https://i.pinimg.com/564x/83/77/31/83773162a4f620eb2c60346d5372f66a.jpg" alt="Anuel con gafas verdes">
+    <img src="https://i.pinimg.com/564x/22/8a/cb/228acba0f208abfe1a1409693b79091f.jpg" alt="Feid en show con Karol G">
+</div>
+
+<a href="blog-feid.html" class="button-link">← Volver al Blog de Feid</a>
+
+</body>
+</html>
