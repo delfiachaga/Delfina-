@@ -3,92 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Feid, Anuel y Karol G</title>
-    <link rel="stylesheet" href="estilo.css">
+    <style>
+        body {
+            background-color: #ccffcc;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .contenedor {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+            color: #004d00;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 30px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .imagenes {
+            display: flex;
+            gap: 20px;
+            margin: 15px 0;
+            flex-wrap: wrap;
+        }
+        .imagenes img {
+            width: 45%;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        .boton {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #006600;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .boton:hover {
+            background-color: #004d00;
+        }
+    </style>
 </head>
 <body>
     <div class="contenedor">
         <h1>Feid, Anuel y Karol G</h1>
 
         <section>
-            <h2>La polémica</h2>
-            <p>La relación entre Feid y Karol G generó controversia cuando Anuel AA, ex pareja de Karol, lanzó indirectas hacia ambos en redes sociales y canciones.</p>
+            <h2>La relación entre Feid y Karol G</h2>
+            <p>Desde 2023 comenzaron los rumores de una relación entre Feid y Karol G. Aunque ambos han sido discretos, se han dejado ver juntos en eventos y conciertos, lo que confirmó lo que muchos fanáticos ya sospechaban.</p>
             <div class="imagenes">
-                <img src="https://i.pinimg.com/originals/2b/3f/e3/2b3fe3154cc5b16eb934c2b4bb3ae9a0.jpg" alt="Feid y Karol G">
-                <img src="https://cdn.vox-cdn.com/thumbor/O4QvY0OX0fGc3FeuUtvWKPZphcY=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/72506421/anuel_karol.jpg" alt="Anuel AA">
+                <img src="https://i.pinimg.com/originals/2b/3f/e3/2b3fe3154cc5b16eb934c2b4bb3ae9a0.jpg" alt="Feid y Karol G juntos">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Karol_G_Bichota_Tour_Monterrey_2022.jpg/440px-Karol_G_Bichota_Tour_Monterrey_2022.jpg" alt="Karol G en un concierto">
             </div>
         </section>
 
         <section>
-            <h2>¿Qué dijo Anuel?</h2>
-            <p>Anuel lanzó temas con letras agresivas y comentarios en Instagram insinuando traición y celos. Feid, por su parte, ha respondido con música pero sin entrar en polémicas directas.</p>
+            <h2>La reacción de Anuel AA</h2>
+            <p>Anuel, ex pareja de Karol G, comenzó a lanzar indirectas a través de redes sociales y canciones, criticando la relación. Feid no respondió directamente, pero sus fans creen que algunas de sus letras recientes son claras respuestas al conflicto.</p>
             <div class="imagenes">
-                <img src="https://imagenes.elpais.com/resizer/jKXrK1e7EO7F_vJUQvKnbZc3jZo=/828x466/cloudfront-eu-central-1.images.arcpublishing.com/prisa/NGEMDRRAKVG2TNLVG6JL2SPEUE.jpg" alt="Feid en show">
-                <img src="https://cdn.bolavip.com/__export/1688415006013/sites/bolavip/img/2023/07/03/anuel-karol-g-2_crop1688415005104.jpg_242310155.jpg" alt="Anuel discutiendo en redes">
-            </div>
-        </section>
-
-        <a href="index.html" class="boton">Volver a Feid</a>
-    </div>
-</body>
-</html>
-body {
-    background-color: #ccffcc;
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    color: black;
-    margin: 0;
-    padding: 0;
-}
-
-.contenedor {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-}
-
-h1, h2 {
-    font-family: 'Times New Roman', Times, serif;
-    color: #006600;
-}
-
-h1 {
-    font-size: 32px;
-}
-
-h2 {
-    font-size: 24px;
-    margin-top: 30px;
-}
-
-p {
-    line-height: 1.6;
-}
-
-.imagenes {
-    display: flex;
-    gap: 20px;
-    margin: 10px 0 30px 0;
-}
-
-.imagenes img {
-    width: 45%;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
-
-.boton {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #006600;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-}
-
-.boton:hover {
-    background-color: #004d00;
-}
-
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Anuel_AA_2019.jpg" alt="Anuel AA">
+                <img src="https://cdn.bolavip.com/__export/1688415006013/sites/bolavip/img/2023
