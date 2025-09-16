@@ -5,110 +5,83 @@
     <title>Blog de Feid</title>
     <style>
         body {
-            background-color: #ccffcc;
+            background-color: #ccffcc; /* verde clarito */
             font-family: Arial, sans-serif;
             font-size: 12px;
-            color: black;
+            color: #000;
             margin: 0;
             padding: 0;
         }
 
-        .contenedor {
-            max-width: 1000px;
-            margin: auto;
+        header {
+            background-color: #004d00;
             padding: 20px;
+            text-align: center;
+            color: white;
         }
 
         h1, h2 {
             font-family: 'Times New Roman', Times, serif;
-            color: #004d00;
-        }
-
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin-top: 20px;
+            color: #003300; /* verde oscuro */
         }
 
         .post {
-            background-color: #eaffea;
+            background-color: white;
+            margin: 20px auto;
             padding: 20px;
-            margin-bottom: 30px;
+            max-width: 800px;
             border-radius: 10px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
-        .imagenes {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 10px;
+        .post img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 10px 0;
         }
 
-        .imagenes img {
-            width: 48%;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-        }
-
-        .boton {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
+        .button-link {
+            display: block;
+            width: fit-content;
+            margin: 30px auto;
+            padding: 12px 24px;
             background-color: #006600;
             color: white;
             text-decoration: none;
             font-weight: bold;
             border-radius: 6px;
-            font-family: Arial, sans-serif;
-            transition: background-color 0.3s ease;
+            text-align: center;
+            transition: background 0.3s ease;
         }
 
-        .boton:hover {
-            background-color: #004d00;
+        .button-link:hover {
+            background-color: #009900;
         }
     </style>
 </head>
 <body>
-    <div class="contenedor">
-        <h1>Blog de Feid - El Ferxxo</h1>
 
-        <!-- POST 1 -->
-        <div class="post">
-            <h2>Los Inicios de Feid</h2>
-            <p>Feid, nacido como Salomón Villada Hoyos en Medellín, comenzó su carrera como compositor para artistas como J Balvin y Nicky Jam. Su pasión por la música lo llevó a desarrollar un estilo propio muy ligado al reggaetón y sonidos melódicos.</p>
-            <div class="imagenes">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Feid_2023.jpg" alt="Feid joven">
-                <img src="https://cdn.britannica.com/41/248841-050-3A8D9B42/Feid-2023.jpg" alt="Feid en sus inicios">
-            </div>
-        </div>
+<header>
+    <h1>El Mundo de Feid</h1>
+    <p>Todo sobre Ferxxo, su música, vida y polémicas</p>
+</header>
 
-        <!-- POST 2 -->
-        <div class="post">
-            <h2>Su Estilo y Marca Personal</h2>
-            <p>Feid es fácilmente reconocido por su estilo visual: color verde, gafas oscuras y ropa urbana oversize. Esta estética no solo es una moda, sino una extensión de su identidad artística. El verde se volvió su sello.</p>
-            <div class="imagenes">
-                <img src="https://i.pinimg.com/736x/4e/33/76/4e3376e15aeb1e774b19de95bcfd13f2.jpg" alt="Feid con gafas y ropa verde">
-                <img src="https://i.pinimg.com/originals/8c/5e/3e/8c5e3e1a5d3bb4039490abedbb18389d.jpg" alt="Feid estilo callejero">
-            </div>
-        </div>
+<div class="post">
+    <h2>🎵 Inicios de Feid</h2>
+    <p>Salomón Villada Hoyos, conocido artísticamente como Feid o Ferxxo, nació en Medellín, Colombia. Comenzó su carrera componiendo para otros artistas como J Balvin y luego se lanzó como solista.</p>
+    <img src="https://i.pinimg.com/564x/70/3a/ef/703aefe99a8c37b2aa3c50537c5d5d38.jpg" alt="Feid joven">
+    <img src="https://i.pinimg.com/564x/3a/e1/3d/3ae13d75aa0b6e6f1d8a8f3be9b5a51b.jpg" alt="Feid en concierto">
+</div>
 
-        <!-- POST 3 -->
-        <div class="post">
-            <h2>Éxito Internacional</h2>
-            <p>Con hits como "Feliz Cumpleaños Ferxxo", "Normal" y "Chorrito Pa Las Ánimas", Feid ha roto fronteras y se ha consolidado como uno de los artistas más influyentes del género urbano actual.</p>
-            <div class="imagenes">
-                <img src="https://static.billboard.com/files/media/feid-press-photo-2022-billboard-1548-1-1.jpg" alt="Feid en show internacional">
-                <img src="https://imagenes.elpais.com/resizer/jKXrK1e7EO7F_vJUQvKnbZc3jZo=/828x466/cloudfront-eu-central-1.images.arcpublishing.com/prisa/NGEMDRRAKVG2TNLVG6JL2SPEUE.jpg" alt="Feid en tour">
-            </div>
-        </div>
+<div class="post">
+    <h2>💿 Estilo Musical y Éxitos</h2>
+    <p>Feid se caracteriza por un reguetón melódico con influencia del perreo old school. Su imagen con gafas verdes se volvió icónica. Temas como "Feliz Cumpleaños Ferxxo" y "Chorrito Pa Las Animas" son himnos actuales del género.</p>
+    <img src="https://i.pinimg.com/564x/c3/82/46/c38246c1749a967e2d5120576793997e.jpg" alt="Feid con gafas verdes">
+    <img src="https://i.pinimg.com/564x/69/40/4a/69404a2cf6b3f17cd41653b8df870cce.jpg" alt="Feid en escenario">
+</div>
 
-        <!-- Botón -->
-        <a href="feid-anuel-karolg.html" class="boton">Feid, Anuel y Karol G</a>
-    </div>
+<a href="feid-karolg-anuel.html" class="button-link">Feid, Anuel y Karol G</a>
+
 </body>
 </html>
