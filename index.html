@@ -12,47 +12,62 @@
             margin: 0;
             padding: 0;
         }
+
         .contenedor {
-            max-width: 900px;
+            max-width: 1000px;
             margin: auto;
             padding: 20px;
         }
+
         h1, h2 {
             font-family: 'Times New Roman', Times, serif;
             color: #004d00;
         }
+
         h1 {
-            font-size: 32px;
+            font-size: 36px;
             margin-bottom: 20px;
         }
+
         h2 {
             font-size: 24px;
-            margin-top: 30px;
+            margin-top: 20px;
         }
-        p {
-            line-height: 1.6;
+
+        .post {
+            background-color: #eaffea;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
+
         .imagenes {
             display: flex;
-            gap: 20px;
-            margin: 15px 0;
             flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
         }
+
         .imagenes img {
-            width: 45%;
+            width: 48%;
             border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
+
         .boton {
             display: inline-block;
-            margin-top: 30px;
+            margin-top: 20px;
             padding: 10px 20px;
             background-color: #006600;
             color: white;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 5px;
+            border-radius: 6px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease;
         }
+
         .boton:hover {
             background-color: #004d00;
         }
@@ -62,24 +77,37 @@
     <div class="contenedor">
         <h1>Blog de Feid - El Ferxxo</h1>
 
-        <section>
-            <h2>¿Quién es Feid?</h2>
-            <p>Feid, también conocido como Ferxxo, es un cantante colombiano nacido en Medellín. Ha logrado destacarse por su estilo musical que fusiona reggaetón con sonidos electrónicos y letras personales. Es uno de los referentes actuales de la música urbana latina.</p>
+        <!-- POST 1 -->
+        <div class="post">
+            <h2>Los Inicios de Feid</h2>
+            <p>Feid, nacido como Salomón Villada Hoyos en Medellín, comenzó su carrera como compositor para artistas como J Balvin y Nicky Jam. Su pasión por la música lo llevó a desarrollar un estilo propio muy ligado al reggaetón y sonidos melódicos.</p>
             <div class="imagenes">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Feid_2023.jpg/440px-Feid_2023.jpg" alt="Feid en concierto">
-                <img src="https://i.pinimg.com/originals/8c/5e/3e/8c5e3e1a5d3bb4039490abedbb18389d.jpg" alt="Feid en una sesión fotográfica">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Feid_2023.jpg" alt="Feid joven">
+                <img src="https://cdn.britannica.com/41/248841-050-3A8D9B42/Feid-2023.jpg" alt="Feid en sus inicios">
             </div>
-        </section>
+        </div>
 
-        <section>
-            <h2>Su estilo único</h2>
-            <p>Feid es conocido por su estética verde, gafas oscuras y ropa urbana oversize. El color verde se ha vuelto parte de su identidad visual, presente tanto en sus conciertos como en su merchandising.</p>
+        <!-- POST 2 -->
+        <div class="post">
+            <h2>Su Estilo y Marca Personal</h2>
+            <p>Feid es fácilmente reconocido por su estilo visual: color verde, gafas oscuras y ropa urbana oversize. Esta estética no solo es una moda, sino una extensión de su identidad artística. El verde se volvió su sello.</p>
             <div class="imagenes">
-                <img src="https://i.pinimg.com/736x/4e/33/76/4e3376e15aeb1e774b19de95bcfd13f2.jpg" alt="Feid con su look verde">
-                <img src="https://cdn.britannica.com/41/248841-050-3A8D9B42/Feid-2023.jpg" alt="Feid posando en concierto">
+                <img src="https://i.pinimg.com/736x/4e/33/76/4e3376e15aeb1e774b19de95bcfd13f2.jpg" alt="Feid con gafas y ropa verde">
+                <img src="https://i.pinimg.com/originals/8c/5e/3e/8c5e3e1a5d3bb4039490abedbb18389d.jpg" alt="Feid estilo callejero">
             </div>
-        </section>
+        </div>
 
+        <!-- POST 3 -->
+        <div class="post">
+            <h2>Éxito Internacional</h2>
+            <p>Con hits como "Feliz Cumpleaños Ferxxo", "Normal" y "Chorrito Pa Las Ánimas", Feid ha roto fronteras y se ha consolidado como uno de los artistas más influyentes del género urbano actual.</p>
+            <div class="imagenes">
+                <img src="https://static.billboard.com/files/media/feid-press-photo-2022-billboard-1548-1-1.jpg" alt="Feid en show internacional">
+                <img src="https://imagenes.elpais.com/resizer/jKXrK1e7EO7F_vJUQvKnbZc3jZo=/828x466/cloudfront-eu-central-1.images.arcpublishing.com/prisa/NGEMDRRAKVG2TNLVG6JL2SPEUE.jpg" alt="Feid en tour">
+            </div>
+        </div>
+
+        <!-- Botón -->
         <a href="feid-anuel-karolg.html" class="boton">Feid, Anuel y Karol G</a>
     </div>
 </body>
